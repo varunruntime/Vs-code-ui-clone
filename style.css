@@ -1,0 +1,294 @@
+body {
+    font-family: system-ui, -apple-system, 
+    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    background-color:rgb(13,17,22);
+    color: rgb(230, 238, 250);
+    min-height: 600vh;
+    padding-top: 40px;
+}
+
+
+.header {
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(13,17,22);
+    position: fixed;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 255, 255, 0.12);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.left-section{
+    
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.vs-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(230, 238, 250);
+    cursor: pointer;
+}
+
+
+.vs-logo{
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.middle-section{
+    
+    margin-left: 25px;
+    margin-right: 300px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.docs-button, .updates-button, .blog-button,
+.api-button, .extensions-button, .mcp-button, .faq-button{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(155, 163, 180);
+    cursor: pointer;
+}
+
+.right-section{
+    
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-bar{
+    border: none;
+    background-color: black;
+    color: rgb(155, 163, 180);
+    height: 35px;
+    width: 145px;
+    padding-left: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(75, 79, 90);
+    border-radius: 5px;
+}
+
+.search-bar::placeholder{
+    color:rgb(155, 163, 180);
+    font-size: 15px;
+}
+.search-wrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-icon{
+    background-color: black;
+    height: 16px;
+    position: absolute;
+    left: 7px;
+}
+
+.download-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.download-button{
+    background-color: rgb(0, 120, 212);
+    color: rgb(230, 238, 250);
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    margin-left: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.heading{
+    font-size: 74px;
+    color: rgb(230, 238, 250);
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    width: 600px;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+.landing-page-heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.download-centre-wrapper{
+    margin-top: 30px;
+    height: 150px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    background-color: rgb(28,33,40);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.download-macos{
+   
+    background-color: rgb(231,238,251);
+    color: black;
+    font-size: 18px;
+    font-weight: 590;
+    margin-top: 5px;
+    border: none;
+    margin-left: 15px;
+    width: 350px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px;
+    cursor: pointer;
+    
+}
+.apple-logo{
+    height: 22px;
+    display: block;
+    transform: translateY(-3px);
+    
+    
+}
+.web-insiders{
+    font-size: 12px;
+    color: rgb(231,238,251);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.license{
+    font-size: 11px;
+    color: rgb(231,238,251);
+    text-align: center;
+    margin-top: 14px;
+}
+.landing-page-image{
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.landing-code-image{
+    display: block;
+}
+.three-code-images{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+.ai-feature-image{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.agent-mode-section{
+    display: block;
+}
+.agent-mode-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    flex-direction: row;
+}
+.agent-mode-left{
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+   
+}
+.agent-mode-right{
+    width: 815px;
+
+}
+.agent-mode-title{
+    font-size: 30px;
+    letter-spacing: -0.8px;
+    font-weight: 700;
+    color: rgb(230, 238, 250);
+    margin-bottom: 0px;
+}
+.agent-mode-para{
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: rgb(159, 177, 209);
+}
+.agent-mode-link{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.next-edit-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    flex-direction: row;
+}
+.next-edit-left{
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+   
+}
+.next-edit-right{
+    width: 815px;
+
+}
+.next-edit-title{
+    font-size: 30px;
+    letter-spacing: -0.8px;
+    font-weight: 700;
+    color: rgb(230, 238, 250);
+    margin-bottom: 0px;
+}
+.next-edit-para{
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: rgb(159, 177, 209);
+}
+.next-edit-link{
+    font-size: 16px;
+    font-weight: 500;
+}

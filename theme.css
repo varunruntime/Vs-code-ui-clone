@@ -1,0 +1,25 @@
+.theme-switch{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.theme-dark{
+    display: none;
+    height: 22px;
+
+}
+
+.theme-light{
+    height: 22px;
+}
+
+body.dark .theme-dark{
+    display: block;
+}
+body.dark .theme-light{
+    display: none;
+}
