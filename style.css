@@ -717,7 +717,68 @@ body {
     margin-left:990px;
     margin-right:auto;
     margin-top: 5px;
+    margin-bottom: 150px;
 }
 
+.language-container{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    justify-content: center;
+   
+}
 
+.language-left{
+    width: 360px;
+    margin-right: 86px;
+}
+.language-title{
+    letter-spacing: -0.5px;
+    color: rgb(195, 208, 229);
+    font-size: 30px;
+    font-weight: 600px;
+}
+.language-text{
+    margin-top: 20px;
+    color: rgb(159, 177, 209);
+    font-size:16px;
+    font-weight: 500;
+    line-height: 25px;
+    width: 360px;
 
+}
+.language-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 793px;
+}
+.js-container, .ts-container, .py-container,
+.chash-container, .cpp-container, .html-container,
+.java-container, .json-container, .php-container,
+.mark-container, .powershell-container, .yaml-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+.js-img, .ts-img, .py-img,
+.chash-img, .cpp-img, .html-img,
+.java-img, .json-img, .php-img,
+.mark-img, .powershell-img, .yaml-img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.js-title, .ts-title, .py-title, 
+.chash-title, .cpp-title, .html-title,
+.java-title, .json-title, .php-title,
+.mark-title, .powershell-title, .yaml-title
+{
+    font-size: 16px;
+    font-weight: 400;
+}
